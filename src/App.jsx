@@ -1,16 +1,12 @@
-  import React from 'react';
-import DaisyNav from './component/DaisyNav/DaisyNav';
-import NavBar from './component/DaisyNav/NavBar/NavBar';
-   
+import NavBar from "./NavBar"
 
-  
-  const App = () => {
-    return (
-      <header>
-        <NavBar/>
-          <DaisyNav/>
-      </header>
-    );
-  };
-  
-  export default App;
+ function App() {
+  return(
+    <div>
+      
+      <NavBar/>
+      
+    </div>
+  )
+ }
+ export default App
